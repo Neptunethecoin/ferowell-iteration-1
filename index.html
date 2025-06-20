@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ferowell | Reach Your Best Shape</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+      font-family: 'Segoe UI', sans-serif;
+      height: 100%;
+      overflow-y: scroll;
+    }
+    section {
+      height: 100vh;
+      scroll-snap-align: start;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding: 40px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .container {
+      scroll-snap-type: y mandatory;
+      height: 100vh;
+      overflow-y: scroll;
+    }
+    .hero {
+      background: url('assets/hero.jpg') no-repeat center center;
+      background-size: cover;
+      color: white;
+    }
+    h1, h2 {
+      margin-bottom: 10px;
+    }
+    .cta-button {
+      margin-top: 20px;
+      padding: 14px 28px;
+      background-color: #ff4d4f;
+      color: white;
+      font-weight: bold;
+      font-size: 1.1em;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .cta-button:hover {
+      background-color: #e63e3f;
+    }
+    .dark {
+      background-color: #111;
+      color: white;
+    }
+    .light {
+      background-color: #fff3f3;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <section class="hero">
+      <h1>🔥 The Best Shape of Your Life</h1>
+      <p>Built for women who want to feel powerful, confident, and unstoppable.</p>
+      <button class="cta-button" onclick="location.href='index.html'">Start Your Plan</button>
+    </section>
+
+    <section class="light">
+      <h2>📱 Train Anywhere</h2>
+      <p>Access programs on your phone, at home or in the gym. Equipment optional.</p>
+    </section>
+
+    <section class="dark">
+      <h2>💪 Real Results</h2>
+      <p>See before & after transformations that prove consistency changes everything.</p>
+    </section>
+
+    <section class="light">
+      <h2>🗣️ Testimonials</h2>
+      <p>“This plan gave me my confidence back!”<br>“First time I actually stuck to a workout!”</p>
+    </section>
+
+    <section class="dark">
+      <h2>📊 Progress Tracking</h2>
+      <p>Built-in charts and logs to visualize your transformation journey.</p>
+    </section>
+
+    <section class="light">
+      <h2>🚀 Ready to Get Started?</h2>
+      <p>Answer a few questions and receive your personalized 10-week plan.</p>
+      <button class="cta-button" onclick="location.href='register.html'">Start Now</button>
+    </section>
+  </div>
+</body>
+</html>
